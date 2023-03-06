@@ -1,0 +1,2 @@
+//code to compile the executable of the generator
+g++ -O2 fileGenerator.cpp src/Triangle.cpp src/Point.cpp src/Shape.cpp src/Box.cpp src/Cone.cpp src/Sphere.cpp src/Plane.cpp -o generator
